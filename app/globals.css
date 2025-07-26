@@ -10,12 +10,17 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-primary: #165831;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --custom-gradient: var(
+      --Radial-Green,
+      radial-gradient(50% 50% at 50% 50%, #165831 0%, #0d4022 100%)
+    );
   }
 }
 
@@ -23,4 +28,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+.custom-gap > div {
+  padding: 0 20px;
 }
