@@ -26,7 +26,7 @@ const PastProjects = () => {
   return (
     <div
       id="land"
-      className="bg-primary sm:px-6 pt-5 pb-8 sm:pt-[580px] sm:pb-30 -mt-[500px]"
+      className="bg-primary sm:px-6 pb-8 pt-[580px] sm:pb-30 -mt-[500px]"
     >
       <div className="container mx-auto px-4 ">
         <div className="text-left">

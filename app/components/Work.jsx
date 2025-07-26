@@ -1,3 +1,5 @@
+import { GoArrowUpRight } from "react-icons/go";
+
 import Image from "next/image";
 const Work = () => {
   return (
@@ -26,7 +28,9 @@ const Work = () => {
 
             <button className="bg-white border-2 border-primary text-primary  px-8 py-5 rounded-xl text-[15px] font-semibold hover:bg-primary hover:text-white transition-colors duration-200 flex items-center gap-2">
               Find a home
-              <span className="text-sm">↗</span>
+              <span className="text-sm">
+                <GoArrowUpRight className="text-xl" />
+              </span>
             </button>
           </div>
           <div className="bg-white border-2 border-[#B3BAC5] rounded-2xl flex flex-col items-center justify-center text-center relative p-12">
@@ -46,7 +50,9 @@ const Work = () => {
 
             <button className="bg-white border-2 border-primary text-primary  px-8 py-5 rounded-xl text-[15px] font-semibold hover:bg-primary hover:text-white transition-colors duration-200 flex items-center gap-2">
               Find a home
-              <span className="text-sm">↗</span>
+              <span className="text-sm">
+                <GoArrowUpRight className="text-xl" />
+              </span>
             </button>
           </div>
           <div className="bg-white border-2 border-[#B3BAC5] rounded-2xl flex flex-col items-center justify-center text-center relative p-12">
@@ -66,7 +72,9 @@ const Work = () => {
 
             <button className="bg-white border-2 border-primary text-primary  px-8 py-5 rounded-xl text-[15px] font-semibold hover:bg-primary hover:text-white transition-colors duration-200 flex items-center gap-2">
               Find a home
-              <span className="text-sm">↗</span>
+              <span className="text-sm">
+                <GoArrowUpRight className="text-xl" />
+              </span>
             </button>
           </div>
         </div>

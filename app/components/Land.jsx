@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { RiArrowRightDoubleFill } from "react-icons/ri";
+
 const Land = () => {
   return (
     <div id="land" className="bg-primary sm:px-6 pt-5 pb-8 sm:pt-30 sm:pb-30">
@@ -27,8 +28,8 @@ const Land = () => {
             alt=""
           />
         </div>
-        <div className="flex justify-around ">
-          <div className="rounded-tr-[60px] border border-white flex flex-col items-center justify-center bg-[url(https://placehold.co/440x560)] bg-cover no-bg-repeat bg-bg-center py-40 px-7">
+        <div className="flex flex-col sm:flex-row justify-around gap-4 sm:gap-0">
+          <div className="rounded-tr-[60px] border border-white flex flex-col items-center justify-center bg-[url('https://placehold.co/440x560')] bg-cover bg-no-repeat bg-center py-40 px-7">
             <h1 className="text-[56px] font-extrabold mb-2.5">Texas</h1>
             <p className="text-[24px] mb-10">Hard Money Loans | DSCR Loans</p>
             <a
@@ -38,8 +39,8 @@ const Land = () => {
               View All Locations
             </a>
           </div>
-          <div className="rounded-br-[60px] border border-white flex flex-col items-center justify-center bg-[url(https://placehold.co/440x560)] bg-cover no-bg-repeat bg-bg-center py-40 px-7">
-            <h1 className="text-[56px] font-extrabold mb-2.5">Texas</h1>
+          <div className="rounded-br-[60px] border border-white flex flex-col items-center justify-center bg-[url('https://placehold.co/440x560')] bg-cover bg-no-repeat bg-center py-40 px-7">
+            <h1 className="text-[56px] font-extrabold mb-2.5">Florida</h1>
             <p className="text-[24px] mb-10">Hard Money Loans | DSCR Loans</p>
             <a
               href=""
@@ -50,10 +51,10 @@ const Land = () => {
           </div>
         </div>
         <div className="mt-10 sm:mt-20">
-          <button className="bg-white text-primary text-sm sm:text-lg pl-6 pr-2 py-1 rounded-lg font-semibold flex items-center justify-center -skew-x-12 m-auto cursor-pointer">
-            <p>View All Locations</p>
-            <span className="bg-white p-2 flex items-center justify-center">
-              <RiArrowRightDoubleFill className="bg-primary text-white text-2xl sm:text-3xl" />
+          <button className="bg-white text-primary text-sm sm:text-lg pl-6 pr-2 py-2 rounded-lg font-semibold w-auto flex mx-auto text-center items-center justify-between -skew-x-12 gap-4 uppercase">
+            <p>More about us</p>
+            <span className=" bg-primary p-2 flex items-center justify-center">
+              <RiArrowRightDoubleFill className="text-white text-2xl sm:text-3xl" />
             </span>
           </button>
         </div>

@@ -1,4 +1,5 @@
-import { FaFacebookF, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaLinkedin, FaPhoneAlt, FaTwitter } from "react-icons/fa";
+import { MdOutlineMailOutline } from "react-icons/md";
 
 import { FaInstagramSquare } from "react-icons/fa";
 
@@ -226,8 +227,9 @@ const Footer = () => {
 
             <div className="mb-6">
               <h4 className="text-white font-medium mb-2">Email</h4>
-              <div className="flex items-center">
-                <div className="w-5 h-5 bg-gray-400 rounded mr-3"></div>
+              <div className="flex items-center gap-3">
+                <MdOutlineMailOutline className="text-lg" />
+
                 <a
                   href="mailto:loans@ridgestreetcap.com"
                   className="text-white hover:text-white transition-colors text-[20px]"
@@ -239,8 +241,9 @@ const Footer = () => {
 
             <div className="mb-8">
               <h4 className="text-white font-medium mb-2">Direct/Text</h4>
-              <div className="flex items-center">
-                <div className="w-5 h-5 bg-gray-400 rounded mr-3"></div>
+              <div className="flex items-center gap-3">
+                <FaPhoneAlt className="text-lg" />
+
                 <a
                   href="tel:786-304-2751"
                   className="text-white hover:text-white transition-colors text-[20px]"
